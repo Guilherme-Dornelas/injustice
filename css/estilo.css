@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+.logo2 {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images3.alphacoders.com/790/790900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 700px;
+    height: 700px;
+}
+
+.content h3 {
+    color: #178A11;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px white;
+    font-size: 0px;
+    display: block;
+}
+
+.lorem {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #0D9E01;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    color: white;
+    border: green 2px solid;
+    box-shadow: #15FF00 0px 0px 10px;
+    text-shadow: 0px 0px 10px white;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+nav ul li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li:hover {
+    text-shadow: #15FF00;
+    color: #8bf086;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* menu suspenso */
+
+
+/* fim */
+
+.lorem20 {
+    display: none;
+}
+
+.content {
+    margin-top: 300px;
+    margin-left: 30px;
+}
+
+.content .titulo {
+    color: white;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* tablet version */
+
+@media (max-width: 1024px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://images3.alphacoders.com/790/790900.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 10px;
+    }
+    nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav #logo {
+        height: 80px;
+        width: 80px;
+        margin-left: 100px;
+        margin-top: 40px;
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        gap: 30px;
+        margin-right: 100px;
+    }
+    nav ul li {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .content .titulo {
+        color: rgb(229, 238, 227);
+        font-size: 100px;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-shadow: 0px 0px 10px #15FF00;
+    }
+    .lorem {
+        font-size: 20px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ccc;
+        margin-top: 30px;
+    }
+    nav .logo2 {
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+        margin-top: 40px;
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0px 5px 10px #a0e6a2;
+    }
+    .content {
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+    button {
+        background-color: #0D9E01;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border: none;
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 200px;
+    }
+}
+
+
+/* mobile version */
+
+@media (max-width: 425px) {
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://e0.pxfuel.com/wallpapers/339/701/desktop-wallpaper-injustice-2-superman-for-and-mobiles.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    ul {
+        margin-left: 10px;
+    }
+    ul li {
+        display: none;
+        font-size: 20px;
+    }
+    .lorem {
+        font-size: 15px;
+        color: white;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ccc;
+        margin-top: 30px;
+        display: none;
+    }
+    .content {
+        margin-top: 300px;
+        text-align: center;
+        margin-right: 350px;
+    }
+    .content .titulo {
+        color: white;
+        font-size: 50px;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .main {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 700px;
+        height: 700px;
+    }
+    .lorem20 {
+        font-size: 15px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ccc;
+        margin-top: 30px;
+        display: block;
+    }
+    .nav #logo {
+        height: 70px;
+        width: 70px;
+        margin-left: 10px;
+        display: block;
+    }
+    .nav .logo2 {
+        display: none;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
